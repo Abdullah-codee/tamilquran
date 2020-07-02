@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Tamilil Quran - Quran History of revelation அல்குர்ஆன் அருளப்பட்ட வரலாறு</title>
+<meta name="Keywords" content="Tamilil Quran, Quran revelation History" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge;" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+	<link rel="stylesheet" href="css/megamenu.css" type="text/css"/>
+	<link rel="stylesheet" href="css/b_main.css" type="text/css"/>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jsapi.js"></script><script src="js/platform.js" async defer></script>
+	<link href="http://www.google.com/uds/modules/elements/transliteration/api.css" type="text/css" rel="stylesheet" />
+	<script src="js/b_favourite.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-default navbar-fixed-top" id="topnavbar" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+ 			<div class="logo-row">
+								 <span class="profile-logo">
+                                <a href="index.html" ><img data-toggle="tooltip" title="முகப்பு" data-placement="bottom" src="img/ic_launcher2.jpg"></a>
+                            </span>
+            <!--logo end-->
+			</div>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-left">
+	<span class="navbar-text-q"><div class="fb-share-button" data-layout="button"></div></span>
+	</ul>
+	<ul class="nav navbar-nav navbar-right">
+		<li>&nbsp;</li>
+	</ul>
+	<ul class="nav navbar-nav navbar-right">
+	                    <!-- task notificatoin start -->
+			<li class="dropdown mega-user-dropdown">
+				<a href="#" id="usermenu" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+                         <ul class="dropdown-menu mega-user-dropdown-menu row extended tasks-bar">
+					    							<form class="form" id="login" name="login" action="login.html" method="POST">
+							<div class="input-group has-success">
+							  <input type="text" class="form-control" name="userid" id="userid" value=""  autocomplete="off" placeholder="User ID" required>
+							  <input type="hidden" value="history.html" name="source" id="source">
+							  <span class="input-group-btn">
+								<button type="submit" class="btn btn-success" type="button">Sign-In</button>
+							  </span>
+							</div>
+							</form>
+						<div class="desc">Not Registered  ? </div>
+						<li>
+                               <p class="blue"> <a href="register.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Register Here</a> </p>
+                        </li>
+						</ul>
+                    </li>
+	</ul>
+	<ul class="nav navbar-nav navbar-right">
+			<li class="dropdown mega-search-dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+				<ul class="dropdown-menu mega-search-dropdown-menu row">
+					<li class="col-sm-0">
+						<ul>
+						<li class="dropdown-header">Quick Search</li> 
+							<form class="form" id="qredirect" name="qredirect" action="javascript:quranredirect();">
+							<div class="form-group has-success">
+							  <input type="number" placeholder="ஸூரா" class="form-control" name="ssurano" id="ssurano" value="" min="1" max="114" required>
+							  <input type="number" placeholder="வசனம்" class="form-control" name="ayahno" id="ayahno" value="" min="1" max="286">
+							<button type="submit" class="btn btn-success">Go</button>
+							  </div>
+							</form>
+							<li class="divider"></li>
+							<form class="form" id="bredirect" name="bredirect" action="javascript:bukhariredirect();">
+							<div class="input-group has-success">
+							  <input type="number" class="form-control" placeholder="புகாரி எண்" name="bukharino" id="bukharino" value="" min="1" max="7563"  placeholder="புகாரி எண்:" required>
+							  <span class="input-group-btn">
+								<button type="submit" class="btn btn-success" type="button">Go</button>
+							  </span>
+							</div><!-- /input-group -->
+							</form>
+							<li class="divider"></li>
+							<form class="form" id="mredirect" name="mredirect" action="javascript:muslimredirect();">
+							<div class="input-group has-success">
+							  <input type="number" class="form-control" placeholder="முஸ்லிம் எண்" name="muslimno" id="muslimno" value="" min="1" max="5771"  placeholder="முஸ்லிம் எண்:" required>
+							  <span class="input-group-btn">
+								<button type="submit" class="btn btn-success" type="button">Go</button>
+							  </span>
+							</div>
+							</form>
+							<li class="divider"></li>
+							<form class="form" id="hredirect" name="hredirect" action="javascript:historyredirect();">
+							<div class="input-group has-success">
+							  <input type="number" class="form-control" placeholder="வரலாறு பக்கம்" name="histpageno" id="histpageno" value="" min="1" max="546" required>
+							  <span class="input-group-btn">
+								<button type="submit" class="btn btn-success" type="button">Go</button>
+							  </span>
+							</div>
+							</form>
+							<li class="divider"></li>
+				 <li class="dropdown-header">தேடுங்கள்</li>
+							  <form class="form" name="mform" action="javascript:msearch();">
+						 <div class="form-group has-success">
+						  <div class="checkbox"><label><input id="msearchtype" name="msearchtype" type="checkbox" value="">Search Exact Phrase</label></div>
+						  <select id="mtransselect" name="mtransselect" class="form-control">
+															<option value="0" >டாக்டர். முஹம்மது ஜான்</option>
+															<option value="1" >அப்துல் ஹமீது பாகவி</option>
+															<option value="2" >இஸ்லாமிய நிறுவனம் டிரஸ்ட்</option>
+															<option value="3">மன்னர் ஃபஹத் வளாகம் (சவூதி)</option>
+															<option value="4" >ஸஹீஹ் புகாரி</option>
+															<option value="5" >ஸஹீஹ் முஸ்லிம்</option>
+															<option value="6" >முஹம்மது நபி(ஸல்) வரலாறு</option>
+						  </select>
+						  <input type="text" autocomplete="off" class="form-control" placeholder="தேடவேண்டிய சொல்" name="q" id="q" required>
+						  <button type="submit" class="btn btn-success" type="button">தேடுக</button>
+						</div><!-- /input-group -->
+							  </form>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+   </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div> 
+<div class="container-fluid">
+<div class="row"><div class="col-md-2"></div><div class="col-md-8">
+<div class="alert alert-success" role="alert"><strong>அல்குர்ஆன் அருளப்பட்ட வரலாறு</strong></div>
+</div><div class="col-md-2"></div></div>
+<p class="mu" align="justify">
+திருக்குர்ஆனை நபிகள் நாயகம்(ஸல்) அவர்கள் சுயமாகத் தயாரிக்கவில்லை; இறைவன்தான் 
+வழங்கினான் என்றால் எந்த வகையில் அவர்களுக்கு வழங்கப்பட்டது என்ற கேள்விக்கான 
+விடையையும் அறிந்து கொள்வது அவசியம். <br />
+<br />
+நபிகள் நாயகத்துக்கு முன் ஏராளமான இறைத் தூதர்கள் அனுப்பப்பட்டனர். இவ்வாறு 
+அனுப்பப்பட்ட தூதர்கள் வரிசையில் இறுதியானவர் நபிகள் நாயகம்(ஸல்) அவர்கள் என்பது 
+தான் இஸ்லாமிய நம்பிக்கை. <br />
+<br />
+முதல் மனிதராகிய ஆதம் முதல் நபிகள் நாயகம்(ஸல்) அவர்கள் வரை எத்தனை தூதர்கள் 
+வந்துள்ளனர் என்று குர்ஆன் கூறாவிட்டாலும் ஏராளமான தூதர்கள் அனுப்பப்பட்டதாகக் 
+கூறுகிறது. <br /><br/>
+நபிகள் நாயகத்துக்கு முன் அனுப்பப்பட்ட தூதர்கள் குறிப்பிட்ட மொழியினருக்கோ, 
+குலத்தினருக்கோ, சமுதாயத்தினருக்கோ அனுப்பப்பட்டனர். அவரவர் மொழியில் மக்களை 
+நல்வழிப்படுத்த அவர்களுக்கு இறைவன் வழங்கிய செய்தியே வேதம் எனப்படும். <br />
+<br />
+நபிகள் நாயகம் (ஸல்) அவர்களின் காலத்துக்கு முன் இருந்த எல்லா மொழிகளிலும் இறைத் 
+தூதர்கள் அனுப்பப்பட்டுள்ளனர். <br />
+<br />
+ஒவ்வொரு தூதரையும் அவருடைய சமூகத்தாருக்கு அவர் விளக்கிக் கூறுவதற்காக அவர்களுடைய 
+மொழியிலேயே (போதிக்கும் படி) நாம் அனுப்பிவைத்தோம்; அல்லாஹ் தான் நாடியோரை வழிதவறச் 
+செய்கின்றான், தான் நாடியோருக்கு நேர்வழியையும் காண்பிக்கின்றான்; அவன் 
+மிகைத்தவனாகவும் ஞானமுடையவனாகவும் இருக்கின்றான். அல்குர்ஆன் 14:4. <br />
+<br />
+இவ்வாறு அனுப்பப்பட்ட தூதர்களில் இறுதியானவர் நபிகள் நாயகம்(ஸல்) அவர்கள் 
+அவர்களுக்குப் பின் உலகம் அழியும் காலம் வரை இறைத் தூதர்கள் அனுப்பப்பட 
+மாட்டார்கள். (பார்க்க அல்குர்ஆன் 
+<a target="_top" href="index.html#4:79">4:79</a>, 
+<a target="_top" href="index.html#4:170">4:170</a>, 
+<a target="_top" href="index.html#7:158">7:158</a>, 
+<a target="_top" href="index.html#9:33">9:33</a>, 
+<a target="_top" href="index.html#10:57">10:57</a>, 
+<a target="_top" href="index.html#10:108">10:108</a>, 
+<a target="_top" href="index.html#14:52">14:52</a>, 
+<a target="_top" href="index.html#21:107">21:107</a>, 
+<a target="_top" href="index.html#22:49">22:49</a>, 
+<a target="_top" href="index.html#25:1">25:1</a>, 
+<a target="_top" href="index.html#33:40">33:40</a>, 
+<a target="_top" href="index.html#34:28">34:28</a>, 
+<a target="_top" href="index.html#62:3">62:3</a>)<br />
+<br />
+மற்ற இறைத் தூதர்கள் போல் குறிப்பிட்ட சமுதாயத்துக்கோ, குறிப்பிட்ட மொழியினருக்கோ 
+அன்றி அகில உலகுக்கும் இறைத் தூதராக அனுப்பப்பட்டவர்கள் நபிகள் நாயகம்(ஸல்) 
+அவர்கள். <br /><br/>
+அவர்களுக்கு வழங்கப்பட்ட குர்ஆன் எனும் வேதத்துக்குப் பின் உலகில் வேறு வேதம் ஏதும் 
+அருளப்படாது என்பதால் குர்ஆன் இறுதி வேதம் எனப்படுகிறது. <br />
+<br />
+உலகம் முழுவதற்கும் வழிகாட்ட அருளப்படும் வேதம் அரபு மொழியில் ஏன் அருளப்பட 
+வேண்டும் என்று சிலர் கருதலாம். <br />
+<br />
+அரபு மொழிதான் தேவமொழி என்பதோ அதுதான் உலகிலேயே உயர்ந்த மொழி என்பதோ இதற்குக் 
+காரணம் அல்ல. எல்லா மொழிகளும் சமமானவை என்றே இஸ்லாம் கூறுகிறது மொழியின் 
+அடிப்படையில் எவரும் உயர்வு தாழ்வு கற்பிக்கக் கூடாது என்பதும் இஸ்லாத்தின் கொள்கை.
+<br />
+<br />
+இஸ்லாம் அரபு மக்களுக்கு மட்டுமின்றி உலகில் உள்ள அனைத்து மொழி பேசுவோருக்காகவும் 
+அருளப்பட்ட வாழ்க்கை நெறியாகும். பல்வேறு மொழி பேசும் மக்களுக்கு ஒரு வழிகாட்டு 
+நெறியைக் கொடுத்து ஒரு வழிகாட்டியை அனுப்பும் போது ஏதாவது ஒரு மொழியில் தான் 
+கொடுத்தனுப்ப முடியும் எந்த மொழியில் அந்த வழிகாட்டு நெறி இருந்நாலும் மற்ற 
+மொழியைப் பேசுவோர் இது குறித்து கேள்வி எழுப்புவார்கள். <br />
+<br />
+யாராலும் எந்தக் கேள்வியும் எழுப்ப முடியாதவாறு இதற்கு ஒரு ஏற்பாடு செய்ய முடியாது. 
+அரபு மொழிக்குப் பதிலாக தமிழ் மொழியில் நபிகள் நாயகம்(ஸல்) அவர்கள் 
+அனுப்பப்பட்டிருந்தால் இதே கேள்வியை மற்ற மொழி பேசும் மக்கள் கேட்காமல் இருக்க 
+மாட்டார்கள். <br />
+<br />
+எனவே உலக ஒருமைப்பாட்டைக் கருத்தில் கொண்டு செய்யப்படும் காரியங்களில் மொழி 
+உணர்வுக்கு முக்கியத்துவம் கொடுத்து உலக ஒருமைப்பாட்டைச் சிதைத்து விடக் கூடாது.
+<br />
+<br />
+நாம் வாழ்கின்ற இந்திய நாட்டில் பல்வேறு மொழி பேசும் மக்கள் வாழ்கின்றனர். ஆனால் 
+நமது நாட்டிற்கு ஒரு தேசிய கீதத்தை வங்காள மொழியில் உருவாக்கி அதை அனைத்து 
+மொழியினரும் ஏற்றுக் கொண்டிருக்கிறோம். இவ்வாறு ஏற்றுக் கொண்டிருப்பதால் 
+இந்தியாவிலேயே முதன்மையான மொழி வங்காள மொழி தான் என்றோ மற்ற மொழிகள் தரம் குறைந்தவை 
+என்றோ ஆகாது. <br />
+<br />
+நாட்டின் ஒருமைப்பாட்டுக்காக மொழி உணர்வை சற்றே ஒதுக்கி வைத்து விட்டு, அந்நிய 
+மொழியை ஏற்றுக் கொள்ளும்போது உலக ஒருமைப்பாட்டுக்காகவும் உலக மக்கள் அனைவரும் ஒரே 
+நல்வழியை நோக்கி திரும்ப வேண்டும் என்பதற்காகவும் மிகச் சில விசயங்களில் மொழி 
+உணர்வை ஒதுக்கி வைப்பதால் மனிதகுலத்துக்கு எந்தக் கேடும் ஏற்படாது மாறாக உலகளாவிய 
+ஒற்றுமை எனும் மாபெரும் நன்மை தான் ஏற்படும். <br />
+<br />
+ஏதாவது ஒரு மொழியில் தான் உலகளாவிய ஒரு தலைவரை அனுப்ப முடியும் என்ற அடிப்படையில் 
+தான் நபிகள் நாயத்திற்குத் தெரிந்த அவர்களுடைய தாய் மொழியான அரபு மொழியில் குர்ஆன் 
+அருளப்பட்டது. உலகிலேலே அரபு மொழி தான் சிறந்த மொழி என்பதற்காக அரபு மொழியில் 
+குர்ஆன் அருளப்படவில்லை. <br />
+<br />
+<strong>குர்ஆன் எவ்வாறு அருளப்பட்டது?</strong><br />
+நபிகள் நாயகம் (ஸல்) அவர்கள் எப்போது எவ்வாறு இறைத் தூதராக நியமிக்கப்பட்டார்கள்? 
+என்பதையும் எவ்வாறு குர்ஆன் அருளப்பட்டது என்பதையும் நாம்தெரிந்து கொள்வது அதிகம் 
+பயனளிக்கும். <br />
+<br />
+நபிகள் நாயகம் (ஸல்) அவர்களின் இயற்பெயர் முஹம்மத். இவர்கள் இன்றைய சவூதி 
+அரேபியாவில் உள்ள மக்கா எனும் நகரத்தில் கி.பி. 570ம் ஆண்டு பிறந்தார்கள்.<br />
+<br />
+தாயின் வயிற்றில் இருக்கும் போது தந்தையை இழந்து, சிறு வயதிலேயே தாயையும் 
+இழந்தார்கள். பெற்றோரை இழந்த பின் அவர்களின் தந்தை வழி பாட்டனார் அப்துல் முத்தலிப் 
+என்பார் தமது பொறுப்பில் அவர்களை எடுத்து வளர்த்து வந்தார். அவரது மரணத்திற்குப் 
+பிறகு அவர்களின் பெரிய தந்தை அபூதாலிபுடைய பொறுப்பில் நபிகள் நாயகம் (ஸல்) அவர்கள் 
+வளர்ந்து இளமைப் பருவத்தை அடைந்தார்கள். <br />
+<br />
+சிறுவராக இருந்த போது ஆடு மேய்த்திருக்கிறார்கள். ஓரளவு விபரம் தெரியவந்த பிறகு 
+தமது பெரிய தந்தையோடு சேர்ந்து வியாபாரமும் செய்திருக்கிறார்கள். <br />
+இந்த வியாபாரத்தின் காரணமாக நபிகள் நாயகம் (ஸல்) அவர்கள் பல வெளியூர் பயணங்களை 
+மேற்கொண்டார்கள். <br />
+<br />
+25-வது வயதில் தம்மை விட மூத்தவரான கதீஜா என்ற விதவையை மணந்தார்கள். அவரும் அன்றைய 
+சமுதாயத்தில் பெரிய வசதி படைத்தவராக இருந்ததால் நபிகள் நாயகம் (ஸல்) அவர்கள் தமது 
+25ம் வயதிலேயே மிகவும் வசதி படைத்தவராக மாறினார்கள். <br /><br/>
+<strong>குர்ஆன் அருளப்பட்ட காலகட்டம் </strong> <br />
+&nbsp;</span></p>
+<ul>
+				<li>
+				<p class="mu" align="justify">
+				நபிகள் நாயகம் (ஸல்) அவர்கள் காலத்தில் வாழ்ந்த மக்கள் பல கடவுள் 
+				நம்பிக்கையுடையோராக இருந்தார்கள். ஏராளமான மூட நம்பிக்கைகளில் 
+				மூழ்கிக் கிடந்தனர்!</p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				கடவுளை நிர்வணமாக வழிபட்டனர்!</p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				பெண் குழந்தைகள் பிறப்பதைக் கேவலமாகக் கருதியதுடன் பெண் குழந்தை 
+				பிறந்தால் அதை உயிருடன் புதைப்பதையும் வழக்கமாகக் கொண்டிருந்தனர்!</p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				குடம் குடமாக மது பானங்கள் அருந்தினார்கள்!</p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				காமக் களியாட்டத்தில் மூழ்கித் திளைத்தனர்! </p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				பெண்களை ஆடு மாடுகளைப் போன்று கருதினார்கள்!</p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				தந்தை இறந்துவிட்டால் தந்தையின் மனைவியை மகன் பயன்படுத்திக் 
+				கொள்வது சர்வ சாதராணமாக இருந்தது!</p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				சாதி வேற்றுமையும் தலை விரித்தாடியது!</p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				நபிகள் நாயகம் எந்தக் குலத்தில் பிறந்தார்களோ அந்தக் குலம் - 
+				குறைஷிக் குலம் - மிகவும் உயர்ந்த குலம் எனவும் மற்றவர்கள் 
+				அற்பமானவர்கள் எனவும் விதி செய்திருந்தனர்!</p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				அரபு மொழிதான் ஒரே மொழி என்றும், மற்ற மொழி பேசுவோர் 
+				அஜமிகள்(கால்நடைகள்) என்று கூறும் அளவுக்கு அவர்களிடம் அரபு மொழி 
+				வெறி மிகைத்திருந்தது.</p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				மனித உயிர்களைக் கொன்று குவிப்பது மிகச் சிறிய குற்றமாகக் கூட 
+				அவர்களுக்குத் தோன்றவில்லை. அற்பமான சண்டைகளுக்காகக் கூட கொலை 
+				செய்வார்கள்.!</p>
+				</li>
+				<li>
+				<p class="mu" align="justify">
+				தமது குடும்பத்தில் ஒருவர் கொல்லப்பட்டால் கொலையாளியைப் பழி 
+				வாங்காது விட மாட்டார்கள். அவரைத் தம்மால் பழிவாங்க முடியாவிட்டால் 
+				தமது வாரிசுகளுக்கு வலியுறுத்திச் செய்வார்கள். பத்து 
+				தலைமுறைக்குப் பிறகாவது கொலையாளியின் குடும்பத்தில் ஒருவனைக் 
+				கொன்று கணக்குத் தீர்ப்பார்கள். </p>
+				</li>
+</ul>
+<p class="mu" align="justify">இத்தகைய 
+நிலையைக் கண்டு மனம் வெறுத்த நபிகள் நாயகம் (ஸல்) அவர்கள் தமது சமுதாயத்தின் 
+நடவடிக்கைகள் சரியானவை அல்ல என்று திட்டவட்டமாக உணர்ந்தார்கள். <br />
+<br />
+எனவே தமது நாற்பதாம் வயதில் மக்காவிற்கு வெளியே உள்ள ‘ஹிரா’ எனும் குகைக்குச் 
+சென்று தனிமையில் சிந்திப்பதை வழக்கமாகக் கொள்ளலானார்கள். <br />
+<br />
+பல நாட்களுக்குத் தேவையான உணவைத் தயார் செய்து கொண்டு குகையிலேயே தங்கி 
+விடுவார்கள். உணவு முடிந்ததும் வீட்டுக்கு வந்து உணவு தயாரித்துக் கொண்டு 
+மறுபடியும் குகைக்குச் சென்று விடுவார்கள். <br />
+<br />
+இவ்வாறு குகையில் இருந்த போது தான் வானத்தையும், பூமியையும் தொட்டுக் 
+கொண்டிருக்கும் அளவுக்கு பிரம்மாண்டமான தோற்றத்தில் ஒருவர் நிற்பதைக் காண்டார்கள்.
+<br />
+<br />
+அவர் நபிகள் நாயகத்தை இறுகக் கட்டியணைத்து ‘ஓது’ எனக் கூறிய போது தமக்கு ஓதத் 
+தெரியாது என்று நபிகள் நாயகம் (ஸல்) அவர்கள் கூறினார்கள். <br />
+<br />
+மீண்டும் அவர் ‘ஓது’ எனக் கூற அப்போதும் தெரியாது என்று பதிலளித்தார்கள். பின்னர் 
+அவர் நபிகள் நாயகத்தை இறுகக் கட்டியணைத்து “படைத்த உமது இறைவனின் பெயரால் ஓதுவீராக” 
+என்று தொடங்கும் சில வார்த்தைகளைக் கூறினார். (இது 96வது அத்தியாயத்தில் முதல் 
+ஐந்து வசனங்களாக இடம் பெற்றுள்ளது. பார்க்க அல்குர்ஆன் 96:1-5) <br />
+<br />
+இப்படித் தான் நபிகள் நாயகம் இறைத் தூதராக நியமிக்கப்பட்டு முதல் செய்தியும் 
+அருளப்பட்டது. ஆனாலும் நபிகள் நாயகம் அவர்கள் அதிர்ச்சியடைந்து அச்சம் கொண்டார்கள். 
+தமது மனைவியிடம் வந்து இதைக் கூறினார்கள். <br />
+<br />
+“இறைவன் உங்களைக் கைவிட மாட்டான்; மக்களுக்கு நீங்கள் உதவுகிறீர்கள்; ஏழைகளுக்கு 
+வாரி வழங்குகிறீர்கள்; உறவினர்களை உபசரிக்கிறீர்கள்; எனவே அல்லாஹ் உங்களைக் கைவிட 
+மாட்டான்” என்றெல்லாம் அவர்களின் மனைவி கதீஜா அவர்கள் ஆறுதல் படுத்தினார்கள். <br />
+<br />
+ஆயினும் தமது ஆறுதல் போதிய பயனளிக்காததைக் கண்டு தமது உறவினர் வரகாவிடம் நபிகள் 
+நாயகத்தை அழைத்துச் சென்றார்கள். இவர் முந்தைய வேதங்களைக் கற்றறிந்து, கிறித்தவ 
+மார்க்கத்தையும் தழுவியிருந்தார். <br />
+<br />
+“நீர் இறைவனின் தூதராக நியமிக்கப்பட்டுள்ளீர்” உம்மை உமது சமுதாயத்தினர் ஊரை விட்டே 
+வெளியேற்றும் நிலையை அடைவீர்; ஏனெனில் இறைத் தூதர்கள் பிரச்சாரம் செய்யும் போது இது 
+தான் நடந்துள்ளது என்றெல்லாம் அவர் கூறி நம்பிக்கையூட்டினார். (நூல்: புகாரி-2)
+<br />
+<br />
+இப்படி ஆரம்பித்த இறைச் செய்தியின் வருகை சிறிது சிறிதாக சந்தர்ப்பத்துக்கு ஏற்ப 23 
+ஆண்டுகள் தொடர்ந்து வந்து கொண்டே இருந்தது. 23 ஆண்டுகளில் சிறிது சிறிதாக 
+அருளப்பட்ட இறைச் செய்தியின் தொகுப்பே திருக்குர்ஆன்.<br />
+</p>
+</div>
+<footer class="footer"> 
+</footer>
+<script src="js/b_favourite_bottom.js"></script>
+</body>
+</html>
+				
